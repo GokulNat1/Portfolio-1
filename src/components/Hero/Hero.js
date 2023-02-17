@@ -9,12 +9,10 @@ const Hero = () => (
     <Section row nopadding>
       <LeftSection>
         <SectionTitle main center>
-          Welcome To <br />
-          My Personal Portfolio
+          Hi! Welcome to my portfolio.
         </SectionTitle>
         <SectionText style={{paddingBottom:0}}>
-        The purpose of this portfolio website is to quickly become familiar with my few projects and general information about me. <br/>
-          Access contact links for more details and a possible collaboration.
+        I am an always learning engineer with a passion in software engineering and I'm looking forward for what's next! I have a curious mind and enjoy tackling technical and scientific tasks. In addition to my strong analytical process, I am also a strong collaborator and have developed excellent teamwork skills. Check out my work and my journey. Looking forward to connecting!
         </SectionText>
         {/*<Button onClick={props.handleClick}>Learn More</Button>*/}
       </LeftSection>

@@ -9,12 +9,12 @@ import Timeline from '../components/TimeLine/TimeLine';
 
 const Home = () => {
   return (
-    <Layout>
-      <Section grid center>
+      <Layout>
+        <Section grid center>
         <Hero />
         <BgAnimation />
-      </Section>
-      <Timeline />
+        </Section>
+        <Timeline />
       <Projects />
       <Technologies />
     </Layout>

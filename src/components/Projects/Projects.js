@@ -18,8 +18,8 @@ const Projects = () => {
           .slice(0, 3)
         }
       </GridContainer>
-      <ExternalLinks href='/all-projects' className="link-to" title="See more projects">See more</ExternalLinks>
+     {/*<ExternalLinks href='/all-projects' className="link-to" title="See more projects">See more</ExternalLinks>*/}
     </Section>
-)};
+)}; 
 
 export default Projects;

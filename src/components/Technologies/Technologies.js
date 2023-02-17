@@ -20,7 +20,7 @@ const Technologies = () => (
     <SectionDivider divider />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I've worked with the following technologies in the web development world. Now I'm focused towards React and Next.js.
+      I've worked with the following technologies in the web development world. Now I'm focused on DevOps and automation scripting as well as network secuirty. 
     </SectionText>
     <List>
       <ListItem>
@@ -30,8 +30,7 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            HTML, CSS, JavaScript, React, Next.js
+            Javascript, React.js, Next.js, Django, HTML/CSS
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -42,8 +41,7 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            Next.js, Wordpress
+            SQL, Python, Next.js, Express.js
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -52,10 +50,20 @@ const Technologies = () => (
           <DiZend size="6rem" />
         </picture>
         <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
+          <ListTitle>DevOps</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            PS, XD, Zeplin, Figma, Avocode
+            AWS, Terraform, Jenkins, Ansible, Docker, Kubernetes, Playwright
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <picture>
+          <AiOutlineTool size="5.5rem" />
+        </picture>
+        <ListContainer>
+          <ListTitle>Security</ListTitle>
+          <ListParagraph>
+            Kali Linux, Metasploit, BurpSuite Pro, Naabu, Ghidra, Nmap, Fiddler, Python
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -66,11 +74,10 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Other Tools</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            WordPress CMS, Jira, Trello, Git
+            Linux, Nginx, Github, npm, Jira, Trello, Adobe suite
           </ListParagraph>
         </ListContainer>
-      </ListItem>
+      </ListItem> 
     </List>
   </Section>
 );

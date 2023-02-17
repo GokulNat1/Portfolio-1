@@ -1,8 +1,8 @@
 export const projects = [
   {
-    title: "Click Colour",
+    title: "Faded Stranger",
     description:
-      "What a frontend developer doesn't build up a similar application? This app uses custom CSS properties for the UI and only pure JavaScript code to change color clicking get color button. Simple as that!",
+      "",
     image: "images/jpgs/hex-color-1.jpg",
     imageWebp: "images/webps/hex-color-1.webp",
     images: [
@@ -10,17 +10,12 @@ export const projects = [
         original: "images/projects/ClickColour/hex-color-1.jpg",
         loading: "lazy",
         originalAlt: "hex-color-1",
-      },
-      {
-        original: "images/projects/ClickColour/hex-color-2.jpg",
-        loading: "lazy",
-        originalAlt: "hex-color-2",
-      },
+      }
     ],
-    tags: ["JavaScript", "CSS", "HTML"],
+    tags: ["Next.js", "React.js", "mySQL", "REST API", "HTML/CSS"],
     id: 1,
     order: 100,
-    mainType: "javascript",
+    mainType: "Javascript",
   },
   {
     title: "Sleet",
@@ -38,7 +33,7 @@ export const projects = [
     tags: ["PHP", "WordPress", "JavaScript", "HTML", "SCSS"],
     id: 6,
     order: 98,
-    mainType: "php",
+    mainType: "Javascript",
   },
   {
     title: "React Todo/Blog",
@@ -52,25 +47,7 @@ export const projects = [
           "images/projects/ReactTodoBlog/React-todo-and-blog-home-1.jpg",
         loading: "lazy",
         originalAlt: "React-todo-and-blog-home-1",
-      },
-      {
-        original:
-          "images/projects/ReactTodoBlog/React-todo-and-blog-blog-1.jpg",
-        loading: "lazy",
-        originalAlt: "React-todo-and-blog-blog-1",
-      },
-      {
-        original:
-          "images/projects/ReactTodoBlog/React-todo-and-blog-blog-2.jpg",
-        loading: "lazy",
-        originalAlt: "React-todo-and-blog-blog-2",
-      },
-      {
-        original:
-          "images/projects/ReactTodoBlog/React-todo-and-blog-contact.jpg",
-        loading: "lazy",
-        originalAlt: "React-todo-and-blog-contact",
-      },
+      }
     ],
     tags: [
       "React",
@@ -89,179 +66,82 @@ export const projects = [
     mainType: "react",
   },
   {
-    title: "Cryptocurrency",
+    title: "Automated CI/CD Build Pipeline for Node.js App",
     description:
-      "Cryptocurrency app is my best React application so far. It's built up using Ant design, RTK Query, ChartJS, Coinranking and Bing News API. I have learnt a lot of interesting technologies like RTK Query, ChartJS as well as integrating custom features into Ant components like filter/sorting data, view blocks as list/grid or implementing load more component.",
-    image: "images/jpgs/ReactCryptocurrencyApp.jpg",
-    imageWebp: "images/webps/ReactCryptocurrencyApp.webp",
+      "Automated CI/CD Build Pipeline for Node.js App",
+    image: "images/jpgs/cicd.jpg",
+    imageWebp: "images/jpgs/cicd.jpg",
     images: [
       {
         original:
-          "images/projects/ReactCryptocurrency/ReactCryptocurrencyApp.jpg",
+          "images/jpgs/cicd.jpg",
         loading: "lazy",
         originalAlt: "React-Cryptocurrency",
       },
-      {
-        original:
-          "images/projects/ReactCryptocurrency/ReactCryptocurrencyAppHome.jpg",
-        loading: "lazy",
-        originalAlt: "React-Cryptocurrency-Home",
-      },
-      {
-        original:
-          "images/projects/ReactCryptocurrency/ReactCryptocurrencyAppCryptocurrencies.jpg",
-        loading: "lazy",
-        originalAlt: "React--Cryptocurrency-Cryptocurrencies",
-      },
-      {
-        original:
-          "images/projects/ReactCryptocurrency/ReactCryptocurrencyAppExchanges.jpg",
-        loading: "lazy",
-        originalAlt: "React-Cryptocurrency-Exchanges",
-      },
-      {
-        original:
-          "images/projects/ReactCryptocurrency/ReactCryptocurrencyAppNews.jpg",
-        loading: "lazy",
-        originalAlt: "React-Cryptocurrency-News",
-      },
     ],
     tags: [
-      "React",
-      "React Hooks",
-      "Redux",
-      "RTK Query",
-      "Rapid API",
-      "Ant Design",
-      "ChartJS",
+      "Github",
+      "Jenkins",
+      "npm",
     ],
     id: 7,
     order: 93,
     mainType: "react",
   },
   {
-    title: "RLibrary",
+    title: "Ingress NGINX Controller on Amazon EKS Cluster",
     description:
-      "Simple CRUD books system using Firebase/Firestore, Material UI, React, React Hook Form, React Router v6 and all these things bundled by vite",
+      "NGINX ingress controller allows Kubernetes to provide external access to multiple Kubernetes services in an AWS EKS cluster.",
     image: "images/jpgs/ReactLibraryHomeDark.jpg",
-    imageWebp: "images/webps/ReactLibraryHomeDark.webp",
+    imageWebp: "images/jpgs/ReactLibraryHomeDark.jpg",
     images: [
       {
-        original: "images/projects/Rlibrary/ReactLibraryHomeDark.jpg",
+        original: "images/jpgs/ReactLibraryHomeDark.jpg",
         loading: "lazy",
         originalAlt: "RLibrary Home Dark",
-      },
-      {
-        original: "images/projects/Rlibrary/ReactLibraryHomeLight.jpg",
-        loading: "lazy",
-        originalAlt: "RLibrary Home Light",
-      },
-      {
-        original: "images/projects/Rlibrary/ReactLibraryHomeSignUpErrors.jpg",
-        loading: "lazy",
-        originalAlt: "RLibrary Home Sign uo Errors",
-      },
-      {
-        original: "images/projects/Rlibrary/ReactLibraryViewLight.jpg",
-        loading: "lazy",
-        originalAlt: "RLibrary View Light",
-      },
-      {
-        original: "images/projects/Rlibrary/ReactLibraryViewAddNewBook.jpg",
-        loading: "lazy",
-        originalAlt: "RLibrary View Add New Book",
-      },
-      {
-        original: "images/projects/Rlibrary/ReactLibraryViewEditBook.jpg",
-        loading: "lazy",
-        originalAlt: "RLibrary View Edit Book",
-      },
-      {
-        original: "images/projects/Rlibrary/ReactLibraryViewDeleteBook.jpg",
-        loading: "lazy",
-        originalAlt: "RLibrary View Delete Book",
-      },
-      {
-        original: "images/projects/Rlibrary/ReactLibraryViewMobile.jpg",
-        loading: "lazy",
-        originalAlt: "RLibrary View Mobile",
-      },
+      }
     ],
     tags: [
-      "React",
-      "React hooks",
-      "Context API",
-      "React Suspense",
-      "Router DOM v6",
-      "Firebase/Firestore",
-      "Material UI",
+      "AWS EKS",
+      "Terraform",
+      "Nginx",
+      "Kubrenetes"
     ],
     id: 9,
     order: 91,
     mainType: "react",
   },
   {
-    title: "Chat Room [Test]",
+    title: "Multi-User Blog Web Application",
     description:
-      "An interview test project that aims to verify skills in understanding the task and building UI with React.",
-    image: "images/jpgs/React-test Chat Room Intro dark.jpg",
-    imageWebp: "images/webps/React-test Chat Room Intro dark.webp",
+      "CRUD Blog app where users can login and make posts about a randomly assigned image and like/comment.",
+    image: "images/jpgs/fd.jpg",
+    imageWebp: "images/jpgs/fd.jpg",
     images: [
       {
-        original: "images/projects/ReactTestChatRoom/React-test Chat Room Intro dark.webp",
-        loading: "lazy",
-        originalAlt: "Chat Room Intro dark",
-      },
-      {
-        original: "images/projects/ReactTestChatRoom/React-test Chat Room Intro light.webp",
-        loading: "lazy",
-        originalAlt: "Chat Room Intro light",
-      },
-      {
-        original: "images/projects/ReactTestChatRoom/React-test Chat Room User Chat dark.webp",
-        loading: "lazy",
-        originalAlt: "Chat Room User Chat dark",
-      },
-      {
-        original: "images/projects/ReactTestChatRoom/React-test Chat Room User Chat light.webp",
-        loading: "lazy",
-        originalAlt: "Chat Room User Chat light",
-      },
-      {
-        original: "images/projects/ReactTestChatRoom/React-test Chat Room User extra options dark.webp",
-        loading: "lazy",
-        originalAlt: "Chat Room User extra options dark",
-      },
-      {
-        original: "images/projects/ReactTestChatRoom/React-test Chat Room User Info dark.webp",
-        loading: "lazy",
-        originalAlt: "Chat Room User Info dark",
-      },
-      {
-        original: "images/projects/ReactTestChatRoom/React-test Chat Room User Info light.webp",
+        original: "images/jpgs/fd.jpg",
         loading: "lazy",
         originalAlt: "Chat Room User Info light",
-      },
+      }
     ],
     tags: [
+      "Next.js",
       "Typescript",
-      "Jotai",
-      "SWR",
       "Tailwind CSS",
-      "Headless UI",
-      "json server",
-      "React Error Boundary",
+      "MySql",
+      "AWS ECS",
+      "AWS Route 53"
     ],
     id: 12,
     order: 88,
-    mainType: "react",
+    mainType: "Javascript",
   },
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: "Starting my journey as a Junior web developer" },
-  { year: 2018, text: "Working as a front-end developer" },
-  { year: 2019, text: "Working as a full stack developer" },
-  { year: 2021, text: "Diving completely into ReactJS World" },
-  { year: 2022, text: "Starting my journey as a Next.js developer" },
+  { year: 2019, text: "Starting my Education at UMBC, Learning Computer Science fundementals" },
+  { year: 2020, text: "Devloping my Python and Scripting Skills and Learning Netwoking" },
+  { year: 2021, text: "Working as a Web Application Security Tester" },
+  { year: 2022, text: "Diving Completely into Cloud networking and Full-Stack Development" },
+  { year: 2023, text: "Starting my Journey as a DevOps Engineer" },
 ];
